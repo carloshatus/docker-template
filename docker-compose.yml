@@ -67,8 +67,28 @@ services:
         networks:
             - srvweb-network
 
+    database:
+        container_name: ${DATABASE_CONNECTION_NAME}
+        restart: always
+        build:
+            context: ./${DATABASE_CONNECTION_NAME}/
+            dockerfile: Dockerfile
+        ports:
+            - "${DATABASE_PORT}:${DATABASE_PORT}"
+        volumes:
+            - database_data:${DATABASE_DATA_DIR}
+        environment:
+            PORT: ${DATABASE_PORT}
+            POSTGRES_USER: ${DATABASE_USER}
+            POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
+            POSTGRES_DB: ${DATABASE_NAME}
+        networks:
+            - srvweb-network
+
 volumes:
     db_data:
+        driver: local
+    database_data:
         driver: local
 
 networks:
