@@ -1,5 +1,3 @@
-# docker-template
-
-## MariaDB
+# MariaDB
 
 Configurações do conteiner MariaDB.

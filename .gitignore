@@ -2,6 +2,7 @@
 # .gitignore para Docker
 # -----------------------------------------------------------------
 
+!*/README.md
 # ignora tudo no diretório "htdocs", exceto:
 htdocs/*
 !htdocs/exemple.dev.io

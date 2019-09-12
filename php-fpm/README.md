@@ -1,5 +1,3 @@
-# docker-template
-
-## PHP
+# PHP
 
 Configurações do conteiner PHP-FPM.

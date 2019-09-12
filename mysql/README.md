@@ -1,5 +1,3 @@
-# docker-template
-
-## MySQL
+# MySQL
 
 Configurações do conteiner MySQL.

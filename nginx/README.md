@@ -1,5 +1,3 @@
-# docker-template
-
-## Nginx
+# Nginx
 
 Configurações do conteiner Nginx.

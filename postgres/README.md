@@ -1,5 +1,3 @@
-# docker-template
-
-## Postgres
+# Postgres
 
 Configurações do conteiner PostgreSQL.
