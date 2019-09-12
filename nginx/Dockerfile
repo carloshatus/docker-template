@@ -1,4 +1,4 @@
-FROM nginx:1.13.3
+FROM nginx:latest
 
 LABEL Carlos Hatus <carlos.hatus@hotmail.com>
 
