@@ -10,6 +10,8 @@ Template docker-compose, criando um container nginx 1.17 e um container php 7.1.
 
 ## Utilização
 
+Copiar o arquivo env-example para .env e editar os valores das variáveis.
+
 ```
 $ docker-compose build
 $ docker-compose up -d
